@@ -1,0 +1,99 @@
+  header a {
+    color: #ffffff;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  .navbar {
+    background-color: #05192d;
+  }
+  #basic-nav-dropdown {
+    color: #ffffff;
+    font-weight: 100;
+  }
+  .container .navbar-brand,
+  .me-auto .nav-link,
+  .me-auto .nav-link:hover {
+    color: #ffffff;
+    font-weight: 100;
+  }
+  .navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url('/images/bars.png');
+    color: #ffffff !important;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .site-container {
+    min-height: 100vh;
+  }
+  .main {
+    flex: 1;
+    margin: 0;
+  }
+  .btn-primary {
+    background-color: #03ef62;
+    border: none;
+  }
+  .col-md-3 .btn-primary {
+    background-color: #03ef62;
+    border: none;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  .btn-primary:hover {
+    background-color: #7933ff;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 100%;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rating span {
+    color: #ffc000;
+  }
+  .product {
+    border: none;
+    margin: 1rem;
+  }
+  .card a {
+    margin: auto;
+  }
+  .card-img {
+    width: 100%;
+    max-width: 300px;
+    position: center;
+  }
+  .card-text {
+    margin: 0;
+  }
+  .product-info {
+    padding: 1rem;
+  }
+  .img-large {
+    max-width: 100px;
+  }
+  .img-thumbnail {
+    height: 80px;
+  }
+  .small-container {
+    max-width: 600px;
+  }
+  .checkout-steps > div {
+    border-bottom: 0.2rem solid #a0a0a0;
+  }
+  .checkout-steps > div.active {
+    border-bottom: 0.2rem solid #f08000;
+    color: #f08000;
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server . --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "",
+    "commerce"
+  ],
+  "author": "Eduardo Jasso",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
